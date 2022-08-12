@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ActionTest.cs" />
+    <Compile Remove="ExpressionBodiesMember.cs" />
+    <Compile Remove="ExpressionTree.cs" />
+    <Compile Remove="ExpressionTreeViaLambda.cs" />
+    <Compile Remove="FuncTest.cs" />
+    <Compile Remove="Lambda1.cs" />
+    <Compile Remove="Lambda2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ActionTest.cs" />
+    <None Include="ExpressionBodiesMember.cs" />
+    <None Include="ExpressionTree.cs" />
+    <None Include="ExpressionTreeViaLambda.cs" />
+    <None Include="FuncTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Lambda1.cs" />
+    <None Include="Lambda2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Event\Event.csproj" />
+  </ItemGroup>
+
+</Project>

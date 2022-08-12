@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Basic.cs" />
+    <Compile Remove="From.cs" />
+    <Compile Remove="GroupBy.cs" />
+    <Compile Remove="InnerJoin.cs" />
+    <Compile Remove="NestedFrom.cs" />
+    <Compile Remove="OutterJoin.cs" />
+    <Compile Remove="PracticeProblem.cs" />
+    <Compile Remove="SelectWithAnonymousType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="InnerJoin.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Basic.cs" />
+    <None Include="From.cs" />
+    <None Include="GroupBy.cs" />
+    <None Include="NestedFrom.cs" />
+    <None Include="OutterJoin.cs" />
+    <Resource Include="PracticeProblem.cs" />
+    <None Include="SelectWithAnonymousType.cs" />
+  </ItemGroup>
+
+</Project>
