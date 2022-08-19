@@ -1,8 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BitTest.cs" />
+    <Compile Remove="InterruptingThread.cs" />
+    <Compile Remove="Synchronization.cs" />
+    <Compile Remove="SynchronizationMo.cs" />
+    <Compile Remove="TaskNamespace.cs" />
+    <Compile Remove="ThreadS.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="BitTest.cs" />
+    <None Include="InterruptingThread.cs" />
+    <None Include="Synchronization.cs" />
+    <None Include="SynchronizationMo.cs" />
+    <None Include="TaskNamespace.cs" />
+    <None Include="ThreadS.cs" />
+  </ItemGroup>
 
 </Project>
