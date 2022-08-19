@@ -8,19 +8,27 @@
   <ItemGroup>
     <Compile Remove="BitTest.cs" />
     <Compile Remove="InterruptingThread.cs" />
+    <Compile Remove="ParallelP.cs" />
     <Compile Remove="Synchronization.cs" />
     <Compile Remove="SynchronizationMo.cs" />
     <Compile Remove="TaskNamespace.cs" />
+    <Compile Remove="TaskResult.cs" />
     <Compile Remove="ThreadS.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="BitTest.cs" />
     <None Include="InterruptingThread.cs" />
+    <None Include="ParallelP.cs" />
     <None Include="Synchronization.cs" />
     <None Include="SynchronizationMo.cs" />
     <None Include="TaskNamespace.cs" />
+    <None Include="TaskResult.cs" />
     <None Include="ThreadS.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ICSharpCode.Decompiler" Version="7.2.1.6856" />
   </ItemGroup>
 
 </Project>
